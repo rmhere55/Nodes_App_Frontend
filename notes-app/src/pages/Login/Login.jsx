@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Navbar from '../../components/Navbar/Navbar'
 import { Link } from 'react-router-dom'
 import Passwordinput from '../../components/Input/Passwordinput'
@@ -21,6 +21,8 @@ const Login = () => {
         }
 
         setEmail('')
+// login api call
+
     }
 
 
